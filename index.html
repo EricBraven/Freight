@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  	<meta name="author" name="Chukwuanieze Eric">
+  	<link rel="icon" type="image/png" sizes="32x32" href="./images/	favicon-32x32.png">
+  	<link rel="stylesheet" type="text/css" href="fonts.googleapis.com/icon?family=material+icons">
+ 	 <link rel="stylesheet" type="text/css" href="freight.css">
+	  <title>Applying for the css post</title>
+</head>
+<body>
+	<nav>
+		<div>
+			<h4>se<span>nd</span><p>freight</p></h4>
+			<label>
+			<input type="text" name="search" placeholder="Search" autocomplete autosave><img src="images/search_black_24dp.svg">
+		</div>
+		</label>
+		<div>
+			<button>Request quote</button>
+			<button>book shipment</button>
+		</div>
+		
+	</nav>
+	<div class="section">
+		<img src="images/arrow_back_black_24dp.svg" alt="arrow" class="arrow">
+		<section>
+			<h3>new booking</h3>
+			<p>Fill in the information below to get a quote or create a new booking.</p>
+		</section>
+	</div>
+
+		<!-- ARTICLE SECTION FOR THE DIFFERENT SERVICE OFFERED -->	
+	<article>
+		<h3>Select a service</h3>
+		<section>
+			<div>
+				<h4>air freight</h4>
+				<img src="images/flight_black_24dp.svg" class="plane">
+			</div>
+
+			<div>
+				<h4>sea freight</h4>
+				<img src="images/ship.png" class="ship">
+			</div>
+
+			<div>
+				<h4>inland freight <br> (Truck & Barge)</h4>
+				<img src="images/truck-side.png" class="truck">
+			</div><div>
+				<h4>Custom <br> Clearence</h4>
+				<img src="images/man-head.png" class="head">
+			</div>
+		</section>
+	</article>
+
+	<div class="container">
+		<img src="images/error_outline_black_24dp.svg" alt="alert" class="alert">
+		<div class="semi-container">
+			<div class="select-service">
+				<button>import</button>
+				<button>export</button>
+			</div>
+			<label class="loc">
+				<img src="images/location_on_black_24dp.svg" class="location">
+				<input type="text" name="location" placeholder="From City or port" >
+			</label>
+
+			<label>
+				<img src="images/location_on_black_24dp.svg" class="location"> 
+				<input type="text" name="location" placeholder="To City or port">
+			</label>
+		</div>
+
+		<div class="semi-container">
+			<label>
+				<img src="images/calendar_today_black_24dp.svg" class="calender">
+				<input type="number" name="date" placeholder="Ready Date" class="inputbottom">
+			</label>
+			<label for="Incoterms">
+				<input type="text" name="text" placeholder="Incoterms" class="inputbottom Incoterms">
+				<img src="images/arrow_drop_down_black_24dp.svg" class="incom">
+			</label>
+
+			<label>
+				<input type="number" name="value" placeholder="Total cargo value" class="inputbottom">
+			</label>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="chec">
+			<h3>cargo details</h3>
+			<label>
+			<input type="checkbox" name="check" class="check" checked>
+			<h4 class="uncap">Dangerous cargo(ex. Chemicals, Battery)</h4>
+			</label>
+		</div>
+		<div class="sub-container sub1">
+			<h4>total dimensions</h4>
+			<h4>package details</h4>
+		</div>
+
+
+		<div class="sub-container">
+			<label><h5>Total Volume</h5>
+				<input type="number" name="volume" placeholder="cbm">
+			</label>
+			<label>
+				<h5>Total Weight</h5>
+				<input type="number" name="Weight" placeholder="kg">
+			</label>
+		</div>
+	</div>
+
+	<div class="container container-2">
+		<h3>additional services</h3>
+		<div class="chec">
+			<div class="checkbox">
+				<input type="checkbox" name="check">
+				<div>
+					<h4>export forwarding</h4>
+					<p>We handle custom clearence and documentation</p>
+				</div>
+			</div>
+
+			<div class="checkbox">
+				<input type="checkbox" name="check">
+				<div>
+					<h4>import customs clearance</h4>
+					<p>We handle import custom and regulatiory requirements.</p>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="chec chec2">
+			<div class="checkbox">
+				<input type="checkbox" name="check">
+				<div>
+					<h4>cargo insurance</h4>
+					<p>Protect your cargo from logisticsrisks up to its full value</p>
+				</div>
+			</div>
+
+			<div class="checkbox ">
+				<input type="checkbox" name="check">
+				<div>
+					<h4>transport / delivery</h4>
+					<p>We deliver the cargo to your door step from the ports.</p>
+				</div>
+			</div>
+
+			
+			
+		</div>
+	</div>
+</body>
+</html>
